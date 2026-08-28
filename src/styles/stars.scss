@@ -8,10 +8,26 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 4px;
-  }
 
-  &__star:nth-child(-n + 4) {
-    background-image: url(../images/star-active.svg);
+    &--1:first-child {
+      background-image: url(../images/star-active.svg);
+    }
+
+    &--2:nth-child(-n + 2) {
+      background-image: url(../images/star-active.svg);
+    }
+
+    &--3:nth-child(-n + 3) {
+      background-image: url(../images/star-active.svg);
+    }
+
+    &--4:nth-child(-n + 4) {
+      background-image: url(../images/star-active.svg);
+    }
+
+    &--5:nth-child(-n + 5) {
+      background-image: url(../images/star.svg);
+    }
   }
 
   &__star:last-child {
